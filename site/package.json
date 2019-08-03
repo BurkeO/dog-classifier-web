@@ -1,0 +1,24 @@
+{
+  "name": "dog-classifier",
+  "version": "1.0.0",
+  "description": "Web app to classify dog breeds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dog",
+    "breeds",
+    "image",
+    "recognition",
+    "image",
+    "classification",
+    "machine",
+    "learning"
+  ],
+  "author": "Owen Burke",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
