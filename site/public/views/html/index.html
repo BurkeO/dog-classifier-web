@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Dog Classifier | Classify Images By Breed</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="views/css/index.css"/>
   </head>
 
   <body ng-app='myApp' ng-controller='indexCtrl'>
@@ -33,12 +34,25 @@
     </header>
     <!-- header -->
     
+    <!------------>
 
+
+
+    
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="img-fluid" poster="views/assets/Dog-and-Fly.jpg">
+        <source src="views/assets/background.mp4" type="video/mp4">
+    </video>
 
     <input type="file" accept="image/*" my-file-model="myFile"/> <!--need to implement custom directive when using input with files-->
     <button ng-click="clickUpload()">Upload Image</button>
     <p>Do I have a file ?</p>
     <img id="preview"/>
+
+
+
+
+
+    <!-------------->
 
 
     <script src="app/app.js"></script>
